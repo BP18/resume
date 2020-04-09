@@ -44,61 +44,100 @@ education:
       time: 2001 - 2006
 
 awards:
-    - name: Professional Engineer (P.Eng.)
-      organization: APEGA
-      time: 2013 (Currently Inactive)
+
     - name: APEGA Education Foundation Gold Medal
       organization: University of Calgary
       time: 2006
       description: |
         Awarded to the graduating student with the highest academic standing in their engineering discipline
+
     - name: Engineering Internship Merit Award
       organization: University of Calgary
       time: 2005
       description: |
         Presented to the internship student from each engineering discipline who best demonstrates the qualities of a “superior graduate”
+
     - name: Governor General’s Academic Medal
       organization: Lord Beaverbrook High School, Calgary
       time: 2001
       description: |
         Awarded to the graduating student with the highest academic average in each Canadian high school
 
+    - name: Professional Engineer (P.Eng.)
+      organization: APEGA
+      time: 2013 (Currently Inactive)
+
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+
+    - role: Technical Architect
+      time: 2018 - 2020
+      company: Leavetown Vacations, Vancouver + Remote
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        adipiscing elit. Aenean commodo ligula eget dolor.
           - Bullet point
           - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+
+    - role: Lead Software Developer
+      time: 2016 - 2018
+      company: Leavetown Vacations, Vancouver
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        adipiscing elit. Aenean commodo ligula eget dolor.
           - Bullet point
           - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+
+    - role: Contract Software Developer
+      time: 2014 - 2016
+      company: TransCanada, Calgary + Remote
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        adipiscing elit. Aenean commodo ligula eget dolor.
+          - Bullet point
+          - Bullet point
+
+    - role: Technical Lead
+      time: 2013 - 2014
+      company: Shaw Communications, Calgary
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor.
+          - Bullet point
+          - Bullet point
+
+    - role: Senior Developer
+      time: 2012 - 2013
+      company: Shaw Communications, Calgary
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor.
+          - Bullet point
+          - Bullet point
+
+    - role: Software Developer
+      time: 2010 - 2012
+      company: Shaw Communications, Calgary
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor.
+          - Bullet point
+          - Bullet point
+
+    - role: Product Developer
+      time: 2006 - 2010
+      company: Policy Works, Calgary
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor.
+          - Bullet point
+          - Bullet point
+
+    - role: Intern Product Developer
+      time: 2004 - 2005
+      company: Policy Works, Calgary
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor.
           - Bullet point
           - Bullet point
 

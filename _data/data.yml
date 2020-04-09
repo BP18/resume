@@ -39,11 +39,29 @@ career-profile:
       I am a versatile, highly motivated, and dependable software developer/architect with strong communication skills. I enjoy working on my own and within a team to solve problems, discover new technologies, and improve my software and industry knowledge. I consider some of my greatest strengths to be my attention to detail, ability to identify simple solutions, and knowledge of the full software stack. I am seeking a contract or permanent position where I can contribute, learn, and build something to be proud of.
 
 education:
-    - degree: BSc in Software Engineering with Distinction
-      university: University of Calgary
+    - degree: BSc in Software Engineering with Distinction (GPA 3.92/4.0)
+      school: University of Calgary
       time: 2001 - 2006
-      details: |
-        GPA:  3.92 / 4.0
+
+awards:
+    - name: Professional Engineer (P.Eng.)
+      organization: APEGA
+      time: 2013 (Currently Inactive)
+    - name: APEGA Education Foundation Gold Medal
+      organization: University of Calgary
+      time: 2006
+      description: |
+        Awarded to the graduating student with the highest academic standing in their engineering discipline
+    - name: Engineering Internship Merit Award
+      organization: University of Calgary
+      time: 2005
+      description: |
+        Presented to the internship student from each engineering discipline who best demonstrates the qualities of a “superior graduate”
+    - name: Governor General’s Academic Medal
+      organization: Lord Beaverbrook High School, Calgary
+      time: 2001
+      description: |
+        Awarded to the graduating student with the highest academic average in each Canadian high school
 
 experiences:
     - role: Lead Developer

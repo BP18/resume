@@ -181,11 +181,11 @@ experiences:
 skills:
   title: Skills + Proficiency
   categories:
-    - name: Languages
+    - name: Language
       items: C#, Modern JavaScript, HTML5/CSS, SQL, Java, VB.NET, PHP, Smalltalk
-    - name: Frameworks
+    - name: Framework
       items: .NET, ASP.NET, Web API, Hangfire, REST, SOAP, AngularJS, J2EE
-    - name: Tools
+    - name: Tool
       items: Visual Studio/ReSharper, Git/GitHub, Eclipse, SVN, PowerShell
     - name: DevOps
       items: AWS Architecture, CI/CD Pipelines, Config as Code, Structured Logging
@@ -193,7 +193,7 @@ skills:
       items: SQL Server, ORM Frameworks, Redis, MySQL, Oracle, Access
     - name: OS
       items: Proficient with Windows, macOS, and Linux
-    - name: Methodology
+    - name: Method
       items: Agile (Kanban + Scrum), Test Driven, Jira, Trello
 
 

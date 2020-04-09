@@ -11,8 +11,7 @@
     {% for graduation in education %}
     <div class="item">
       <h4 class="degree">{{ graduation.degree }}</h4>
-      <h5 class="meta">{{ graduation.school }}</h5>
-      <div class="time">{{ graduation.time }}</div>
+      <h5 class="meta">{{ graduation.school }} ({{ graduation.time }})</h5>
       <div class="time">{{ graduation.description }}</div>
     </div>
     {% endfor %}
@@ -27,8 +26,7 @@
     {% for award in awards %}
     <div class="item">
       <h4 class="degree">{{ award.name }}</h4>
-      <h5 class="meta">{{ award.organization }}</h5>
-      <div class="time">{{ award.time }}</div>
+      <h5 class="meta">{{ award.organization }} ({{ award.time }})</h5>
       <div class="time">{{ award.description }}</div>
     </div>
     {% endfor %}

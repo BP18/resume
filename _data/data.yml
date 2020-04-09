@@ -50,23 +50,25 @@ awards:
       organization: University of Calgary
       time: 2006
       description: |
-        Awarded to the graduating student with the highest academic standing in their engineering discipline
+        Awarded to the graduating student with the highest academic standing in their engineering discipline.
 
     - name: Engineering Internship Merit Award
       organization: University of Calgary
       time: 2005
       description: |
-        Presented to the internship student from each engineering discipline who best demonstrates the qualities of a “superior graduate”
+        Presented to the internship student from each engineering discipline who best demonstrates the qualities of a “superior graduate”.
 
     - name: Governor General’s Academic Medal
       organization: Lord Beaverbrook High School, Calgary
       time: 2001
       description: |
-        Awarded to the graduating student with the highest academic average in each Canadian high school
+        Awarded to the graduating student with the highest academic average in each Canadian high school.
 
     - name: Professional Engineer (P.Eng.)
       organization: APEGA
-      time: 2013 (Currently Inactive)
+      time: 2013
+      description: |
+        Currently inactive.
 
 experiences:
 

@@ -39,9 +39,10 @@ career-profile:
       I am a versatile, highly motivated, and dependable software developer/architect with strong communication skills. I enjoy working on my own and within a team to solve problems, discover new technologies, and improve my software and industry knowledge. I consider some of my greatest strengths to be my attention to detail, ability to identify simple solutions, and knowledge of the full software stack. I am seeking a contract or permanent position where I can contribute, learn, and build something to be proud of.
 
 education:
-    - degree: BSc in Software Engineering with Distinction (GPA 3.92/4.0)
+    - degree: BSc in Software Engineering with Distinction
       school: University of Calgary
-      time: 2001 - 2006
+      time: 2006
+      description: GPA 3.92/4.0
 
 awards:
 
@@ -135,6 +136,24 @@ experiences:
     - role: Intern Product Developer
       time: 2004 - 2005
       company: Policy Works, Calgary
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor.
+          - Bullet point
+          - Bullet point
+
+    - role: IT Summer Student
+      time: 2003
+      company: ENMAX, Calgary
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor.
+          - Bullet point
+          - Bullet point
+
+    - role: Freelance Programming + IT Support
+      time: 1998 - present
+      company: Various Small Businesses, Onsite + Remote
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor.

@@ -3,11 +3,11 @@
 # Site Settings
 title: Resume | Byron Poschwatta
 url: 'https://poschwatta.ca'
-baseurl: '/resume' # Change it according to your repository name
-description: My online resume
-# Style will be applied only after restarting the build or serve. Just choose one of the options.
-theme_skin: ceramic # blue turquoise green berry orange ceramic
-chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar
+baseurl: '/resume' # TODO: Use relative_url Liquid filter in code (https://jekyllrb.com/docs/liquid/filters/)
+description: Byron's online resume
+
+theme_skin: ceramic # See _sass/skins
+chrome_mobile_color: # Use hex colors (ex: #1976d2) or leave empty if you don't want a color for chrome mobile searchbar
 
 # Sass/SCSS
 sass:

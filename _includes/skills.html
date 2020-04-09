@@ -1,5 +1,5 @@
 {% assign skills = site.data.data.skills %}
-{% if skills %}
+
 <section class="skills-section section">
 
   <h2 class="section-title">
@@ -12,13 +12,13 @@
 
   <div class="skillset">
 
-    {% for skill in skills.toolset %}
+    {% for skill in skills.categories %}
     <div class="item">
       <h3 class="level-title">{{ skill.name }}</h3>
+      <p>{{ skill.items }}</p>
     </div>
     {% endfor %}
 
   </div>
 
 </section>
-{% endif %}

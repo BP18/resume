@@ -190,11 +190,11 @@ skills:
     - name: DevOps
       items: AWS Architecture, CI/CD Pipelines, Config as Code, Structured Logging
     - name: Data
-      items: SQL Server, ORM Frameworks, Redis, MySQL, Oracle, Access
+      items: SQL Server, ORM, Redis, MySQL, Oracle, Access
     - name: OS
       items: Proficient with Windows, macOS, and Linux
     - name: Method
-      items: Agile (Kanban + Scrum), Test Driven, Jira, Trello
+      items: Agile/Kanban/Scrum, Test Driven, Jira, Trello
 
 
 # TODO: Add links for Jekyll and GitHub Pages?

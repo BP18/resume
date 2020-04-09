@@ -183,12 +183,12 @@ skills:
   categories:
     - name: Languages
       items: C#, Modern JavaScript, HTML5/CSS, SQL, Java, VB.NET, PHP, Smalltalk
-    - name: Frameworks + APIs
+    - name: Frameworks
       items: .NET, ASP.NET, Web API, Hangfire, REST, SOAP, AngularJS, J2EE
     - name: Tools
       items: Visual Studio/ReSharper, Git/GitHub, Eclipse, SVN, PowerShell
     - name: DevOps
-      items: AWS Architecture, CI/CD Pipelines, Configuration as Code, Structured logging
+      items: AWS Architecture, CI/CD Pipelines, Config as Code, Structured Logging
     - name: Data
       items: SQL Server, ORM Frameworks, Redis, MySQL, Oracle, Access
     - name: OS

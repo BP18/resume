@@ -24,47 +24,27 @@ sidebar:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     interests:
-      - item: Climbing
-        link:
-
-      - item: Snowboarding
-        link:
-
-      - item: Cooking
-        link:
+      - item: Hiking
+      - item: Cycling
+      - item: Hockey
+      - item: Golf
+      - item: Soccer
+      - item: Skiing
+      - item: Reading
+      - item: Gardening
 
 career-profile:
     title: Introduction
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      I am a versatile, highly motivated, and dependable software developer/architect with strong communication skills. I enjoy working on my own and within a team to solve problems, discover new technologies, and improve my software and industry knowledge. I consider some of my greatest strengths to be my attention to detail, ability to identify simple solutions, and knowledge of the full software stack. I am seeking a contract or permanent position where I can contribute, learn, and build something to be proud of.
+
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: BSc in Software Engineering with Distinction
+      university: University of Calgary
+      time: 2001 - 2006
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        GPA:  3.92 / 4.0
+
 experiences:
     - role: Lead Developer
       time: 2015 - Present
@@ -106,17 +86,11 @@ experiences:
 
 skills:
     title: Skills &amp; Proficiency
-
     toolset:
-      - name: Python & Django
-        level: 98%
-
       - name: Javascript & jQuery
         level: 98%
-
       - name: Angular
         level: 98%
-
       - name: HTML5 & CSS
         level: 95%
 

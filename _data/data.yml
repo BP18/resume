@@ -7,7 +7,7 @@ sidebar:
 
     # Profile information
     name: Byron Poschwatta
-    tagline: Software Consultant
+    tagline: Software Engineer
     avatar: # Place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -42,7 +42,7 @@ education:
     - degree: BSc in Software Engineering with Distinction
       school: University of Calgary
       time: 2006
-      description: GPA 3.92/4.0
+      description: GPA 3.92 / 4.0
 
 awards:
 

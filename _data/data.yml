@@ -22,6 +22,7 @@ sidebar:
   stack-overflow: # Number/Username, e.g. 123456/alandoe
   codewars:
   goodreads: # Number-Username, e.g. 123456-alandoe
+  # TODO: Add location item with map/pin icon
 
   interests:
     - item: Hiking
@@ -103,7 +104,7 @@ experiences:
     time: 2013 - 2014
     company: Shaw Communications, Calgary
     details: |
-      - Provided leadership for the combined employee and vendor (NetCracker) development team.
+      - Provided leadership for the combined employee and large offshore development team.
       - Led the transition to Git for our large and geographically dispersed team. Trained team members on source control best practices and implemented a release and feature branching strategy.
       - Pioneered a DevOps and automated configuration initiative (using Puppet) along with a small team.
       - Organized and participated in regular code reviews and usage of several code quality tools.

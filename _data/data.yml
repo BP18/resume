@@ -14,6 +14,7 @@ sidebar:
   email: byron@poschwatta.ca
   phone: (403) 585-0515
   website: # Do not add http://
+  location: Bowen Island, BC, Canada
   linkedin: byronposchwatta
   github:
   gitlab:
@@ -22,7 +23,6 @@ sidebar:
   stack-overflow: # Number/Username, e.g. 123456/alandoe
   codewars:
   goodreads: # Number-Username, e.g. 123456-alandoe
-  # TODO: Add location item with map/pin icon
 
   interests:
     - item: Hiking

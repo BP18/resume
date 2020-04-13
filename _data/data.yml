@@ -3,6 +3,7 @@
 #
 
 sidebar:
+  # TODO: Remove this option when making sidebar more dynamic with mobile version
   education: True # Set to False if you want education in main section instead of in sidebar
 
   # Profile information
@@ -41,136 +42,80 @@ career-profile:
     I am a versatile, highly motivated, and dependable software developer/architect with strong communication skills. I enjoy working on my own and within a team to solve problems, discover new technologies, and improve my software and industry knowledge. I consider some of my greatest strengths to be my attention to detail, ability to identify simple solutions, and knowledge of the full software stack. I am seeking a contract or permanent position where I can contribute, learn, and build something to be proud of.
 
 
-education:
-
-  - degree: BSc in Software Engineering with Distinction
-    school: University of Calgary
-    time: 2006
-    description: GPA 3.92 / 4.0
-
-
-awards:
-
-  - name: APEGA Education Foundation Gold Medal
-    organization: University of Calgary
-    time: 2006
-    description: |
-      Awarded to the graduating student with the highest academic standing in their engineering discipline
-
-  - name: Engineering Internship Merit Award
-    organization: University of Calgary
-    time: 2005
-    description: |
-      Presented to the internship student from each engineering discipline who best demonstrates the qualities of a “superior graduate”
-
-  - name: Governor General’s Academic Medal
-    organization: Lord Beaverbrook High School, Calgary
-    time: 2001
-    description: |
-      Awarded to the graduating student with the highest academic average in each Canadian high school
-
-  - name: Professional Engineer (P.Eng.)
-    organization: APEGA
-    time: 2013
-    description: |
-      Currently inactive
-
-
 experiences:
-
   - role: Technical Architect
     time: 2018 - 2020
     company: Leavetown Vacations, Vancouver + Remote
     details: |
-      Details to come...
-
+      Provided technical leadership as the development team grew to eight members and our platform quadrupled in volume to over $16 million in annual transactions.
+      - Oversaw tech integration efforts after the company was aquired by a large US competitor and continued API coordination with multiple external distribution partners.
+      - Provided design and architectural direction for multiple in-flight projects at all times.
+      - Focused on improving architecture and application performance to support millions of incoming/outgoing API calls per day.
+      - Enhanced and automated the CI/CD pipeline (AppVeyor, Cake), AWS infrastructure, monitoring, and log analysis (Serilog, Seq).
   - role: Lead Software Developer
     time: 2016 - 2018
     company: Leavetown Vacations, Vancouver
     details: |
-      Details to come...
-
+      Hired as the first full-time software developer to jump-start the organization's pivot from travel agency to tech startup. Helped create a small tech team, obtain $1.2 million in Series A funding, and led a variety of projects.
+      - Real-time sync and instant booking integrations with Airbnb, VRBO, and TripAdvisor. Included being part of the first handful of worldwide partners to implement new features with tech stack primarily based on AWS, .NET (C#), REST/Web API, Hangfire, Entity Framework, SQL Server.
+      - Designed and built a REST API (including custom search and live quote endpoints) to support the launch of a new website created by an external vendor.
+      - Maintained and modernized legacy internal .NET applications.
+      - Mentored other devs on design, development, code, and testing best practices along with coordinating business priorities and timelines.
   - role: Contract Software Developer
     time: 2014 - 2016
     company: TransCanada, Calgary + Remote
     details: |
-      - Designed and developed a modern replacement for a legacy invoicing system (natural gas pipeline) as part of an experienced project team.
+      - Designed and developed a modern replacement for a legacy natural gas pipeline invoicing system as part of an experienced project team.
       -	Contributed to all layers of the application including persistence (SQL Server, NHibernate), microservice (ASP.NET Web API, REST, C#), and user interface (AngularJS).
       -	Extended the automated build, configuration, and deployment workflow using PowerShell, TeamCity, Octopus Deploy, and Azure.
-      - Integrated with SAP via a SOAP web service.
-      - Worked on migration/transformation of data from legacy systems into the new database structure.
-
+      - Migration/transformation of legacy data and custom integration with SAP.
   - role: Technical Lead
     time: 2013 - 2014
     company: Shaw Communications, Calgary
     details: |
-      - Provided leadership for the combined employee and large offshore development team.
-      - Led the transition to Git for our large and geographically dispersed team. Trained team members on source control best practices and implemented a release and feature branching strategy.
-      - Pioneered a DevOps and automated configuration initiative (using Puppet) along with a small team.
-      - Organized and participated in regular code reviews and usage of several code quality tools.
-      - Was accountable for code release lifecycle and support activities.
+      - Was responsible for the code review processes and code quality tools for the combined employee and large offshore development team.
+      - Led the team's transition to Git, provided training on source control best practices, and implemented a release lifecycle and branching strategy.
+      - With a small team, pioneered a DevOps and automated configuration initiative using Puppet and cloud infrastructure.
       - Integrated our build with Artifactory for reliable handling of dependent and generated libraries.
-
   - role: Senior Developer
     time: 2012 - 2013
     company: Shaw Communications, Calgary
     details: |
-      - Extended functionality for Shaw’s new order entry and orchestration system built on J2EE/WebLogic.
-      - Worked with Shaw and vendor developers from multiple teams to solve complex integration issues involving various protocols (Rest, SOAP, JMS).
-      - Coordinated analysis and design of new feature projects with architects and BAs.
-      - Enhanced existing unit and integration test suites.
-      - Mentored junior/intermediate developers on TDD and other development best practices.
-      - Revamped and simplified our build process using Gradle, including CI with TeamCity.
-
+      - Extended functionality of the new customer order entry and orchestration system built on J2EE/WebLogic.
+      - Worked with multiple internal/vendor teams to solve complex integration issues (REST, SOAP, JMS), including coordination with architects and BAs.
+      - Enhanced existing unit and integration test suites and mentored junior/intermediate developers on TDD and development best practices.
+      - Revamped and simplified our CI process using Gradle and TeamCity.
   - role: Software Developer
     time: 2010 - 2012
     company: Shaw Communications, Calgary
     details: |
-      - Member of the Voice Applications team whose mandate is to provide access to customer phone and voicemail feature management.
-      - One of the primary contributors to the design and development of a RESTful API which is based on several J2EE frameworks/libraries. This API is actively being used by the Phone Portal website and mobile applications (iOS and Android).
-      - Integrated the API with several backend systems (billing/provisioning, SSO, telephony softswitches, voicemail) using a wide variety of technologies (SOAP, REST, XML-RPC, Telnet, JDBC).
-      - Involved in the design and development of the customer facing Phone Portal website itself, which is a pure HTML5/CSS/JavaScript application.
-      - Improved upon development processes such as: code reviews, refactoring, source control, continuous integration, test-driven development, code quality tools, and agile processes.
-      - Attended vendor meetings to provide technical feedback for purchase decisions.
-      - Participated in the interview/hiring process for new team members and provided mentorship on various development concepts.
-
+      - Design and development of a REST API to provide unified access to customer phone and voicemail features for consumption by a single-page web app and mobile apps.
+      - Based on several J2EE frameworks/libraries, the API integrated with many backend systems (billing/provisioning, SSO, telephony switches, voicemail) using a wide variety of technologies (SOAP, REST, XML-RPC, Telnet, JDBC).
+      - Provided feedback for technical purchase decisions and participated in the hiring/mentorship process for new team members.
   - role: Product Developer
     time: 2006 - 2010
     company: Policy Works, Calgary
     details: |
-      - Developed new features, fixed defects, and performed testing for the company’s industry-leading commercial insurance management software. Development was primarily in .NET and Smalltalk.
-      - Performed requirements gathering, analysis, and development of a new module to manage certificates of insurance.
-      - Built infrastructure for SOAP web services in order to transmit commercial insurance policy data.
-      - Linked the company’s ASP.NET website with an existing CRM database to manage security and provide online customer access.
-      - Integrated the company’s software with two 3rd party applications using internal and external APIs.
-      - Provided high-level technical support and analyzed customer requests for product enhancement.
-
+      - Continued development (primarily using .NET and Smalltalk) of commercial insurance management software including leading new projects such as a certificates module and API integrations with two 3rd-party applications.
+      - Linked the company website to an internal CRM database to provide secure online customer access and also built SOAP web service infrastructure to transmit commercial insurance policy data.
+      - Provided high-level technical support and analyzed customer requests for product enhancements.
   - role: Intern Product Developer
     time: 2004 - 2005
     company: Policy Works, Calgary
     details: |
-      - Integrated several disparate customer data systems to provide a coordinated data layer.
-      - Set up a Microsoft Reporting Services server and created a large set of executive summary reports.
-      - Developed a sales proposal generation tool using Excel and extensive VBA.
-      - Enhanced and maintained several internal .NET programs, ASP.NET web applications, and the company’s Microsoft SharePoint intranet site.
-
+      - Integrated disparate customer data systems to provide a coordinated data layer and generate executive summary reports using Microsoft Reporting Services.
+      - Developed a sales proposal generator using Excel/VBA, enhanced internal .NET applications, created custom modules for SharePoint intranet.
   - role: IT Summer Student
     time: 2003
     company: ENMAX, Calgary
     details: |
-      - Developed an Excel/VBA based tool for automatically gathering weekly status reports.
-      - Created a set of Perl/Unix scripts to regularly process and summarize large log files.
-      - Maintained and enhanced several Access/Excel based internal applications.
-      - Assisted on several projects involving the company’s Oracle database and batch processing systems.
-
+      - Developed a tool for automatically gathering weekly status reports and maintained other Access/Excel based internal utilities.
+      - Created scripts to process and summarize large log files from the batch processing systems and Oracle databases.
   - role: Freelance Programming + IT Support
     time: 1998 - present
     company: Various Small Businesses, Onsite + Remote
     details: |
-      - Setup and maintained a Windows Server based network for a small service business.
-      - Provided application and database support, including automated backups.
-      - Developed a database that enabled a small business to more efficiently process government forms.
-      - Created several websites for private companies, charitable organizations, and personal use.
+      - Network, server, computer, mobile device, application, and database support along with custom application and website development.
 
 
 skills:
@@ -192,6 +137,37 @@ skills:
       items: Agile/Kanban/Scrum, Test Driven, Jira, Trello
 
 
-# TODO: Add links for Jekyll and GitHub Pages?
+education:
+
+  - degree: BSc in Software Engineering with Distinction
+    school: University of Calgary
+    time: 2006
+    description: GPA 3.92 / 4.0
+
+
+awards:
+  - name: APEGA Education Foundation Gold Medal
+    organization: University of Calgary
+    time: 2006
+    description: |
+      Awarded to the graduating student with the highest academic standing in their engineering discipline
+  - name: Engineering Internship Merit Award
+    organization: University of Calgary
+    time: 2005
+    description: |
+      Presented to the internship student from each engineering discipline who best demonstrates the qualities of a “superior graduate”
+  - name: Governor General’s Academic Medal
+    organization: Lord Beaverbrook High School, Calgary
+    time: 2001
+    description: |
+      Awarded to the graduating student with the highest academic average in each Canadian high school
+  - name: Professional Engineer (P.Eng.)
+    organization: APEGA
+    time: 2013
+    description: |
+      Currently inactive
+
+
+# TODO: Add links for Jekyll and GitHub Pages? Move out of data.yml?
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" rel="nofollow">Xiaoying Riley</a>

@@ -49,7 +49,7 @@ experiences:
     details: |
       Provided technical leadership as the development team grew to eight members and our platform quadrupled in volume to over $16 million in annual transactions.
       - Oversaw tech integration efforts after the company was aquired by a large US competitor and continued API coordination with multiple external distribution partners.
-      - Provided design and architectural direction for multiple in-flight projects at all times.
+      - Provided design and architectural direction for multiple ongoing projects.
       - Focused on improving architecture and application performance to support millions of incoming/outgoing API calls per day.
       - Enhanced and automated the CI/CD pipeline (AppVeyor, Cake), AWS infrastructure, monitoring, and log analysis (Serilog, Seq).
   - role: Lead Software Developer
@@ -57,23 +57,23 @@ experiences:
     company: Leavetown Vacations, Vancouver
     details: |
       Hired as the first full-time software developer to jump-start the organization's pivot from travel agency to tech startup. Helped create a small tech team, obtain $1.2 million in Series A funding, and led a variety of projects.
-      - Real-time sync and instant booking integrations with Airbnb, VRBO, and TripAdvisor. Included being part of the first handful of worldwide partners to implement new features with tech stack primarily based on AWS, .NET (C#), REST/Web API, Hangfire, Entity Framework, SQL Server.
+      - Built real-time sync and instant booking integrations with Airbnb, VRBO, and TripAdvisor, including prototype features unique to a small group of worldwide partners. Tech stack primarily based on AWS, .NET (C#), REST, Hangfire, Entity Framework, SQL Server.
       - Designed and built a REST API (including custom search and live quote endpoints) to support the launch of a new website created by an external vendor.
       - Maintained and modernized legacy internal .NET applications.
-      - Mentored other devs on design, development, code, and testing best practices along with coordinating business priorities and timelines.
+      - Mentored other team members on design, development, code, and testing best practices along with coordinating business priorities and timelines.
   - role: Contract Software Developer
     time: 2014 - 2016
     company: TransCanada, Calgary + Remote
     details: |
       - Designed and developed a modern replacement for a legacy natural gas pipeline invoicing system as part of an experienced project team.
-      -	Contributed to all layers of the application including persistence (SQL Server, NHibernate), microservice (ASP.NET Web API, REST, C#), and user interface (AngularJS).
+      -	Contributed to all layers of the application including persistence (SQL Server, NHibernate), microservice (.NET, Web API, REST, C#), and user interface (AngularJS).
       -	Extended the automated build, configuration, and deployment workflow using PowerShell, TeamCity, Octopus Deploy, and Azure.
-      - Migration/transformation of legacy data and custom integration with SAP.
+      - Migrated and transformed legacy data and built custom integration with SAP.
   - role: Technical Lead
     time: 2013 - 2014
     company: Shaw Communications, Calgary
     details: |
-      - Was responsible for the code review processes and code quality tools for the combined employee and large offshore development team.
+      - Responsible for the code review processes and code quality tools for the combined employee and large offshore development team.
       - Led the team's transition to Git, provided training on source control best practices, and implemented a release lifecycle and branching strategy.
       - With a small team, pioneered a DevOps and automated configuration initiative using Puppet and cloud infrastructure.
       - Integrated our build with Artifactory for reliable handling of dependent and generated libraries.
@@ -89,7 +89,7 @@ experiences:
     time: 2010 - 2012
     company: Shaw Communications, Calgary
     details: |
-      - Design and development of a REST API to provide unified access to customer phone and voicemail features for consumption by a single-page web app and mobile apps.
+      - Designed/developed a REST API to provide unified access to customer phone and voicemail features for consumption by a single-page web app and mobile apps.
       - Based on several J2EE frameworks/libraries, the API integrated with many backend systems (billing/provisioning, SSO, telephony switches, voicemail) using a wide variety of technologies (SOAP, REST, XML-RPC, Telnet, JDBC).
       - Provided feedback for technical purchase decisions and participated in the hiring/mentorship process for new team members.
   - role: Product Developer
@@ -97,7 +97,7 @@ experiences:
     company: Policy Works, Calgary
     details: |
       - Continued development (primarily using .NET and Smalltalk) of commercial insurance management software including leading new projects such as a certificates module and API integrations with two 3rd-party applications.
-      - Linked the company website to an internal CRM database to provide secure online customer access and also built SOAP web service infrastructure to transmit commercial insurance policy data.
+      - Linked the company website to an internal CRM database to provide secure online customer access and built SOAP web service infrastructure to transmit commercial insurance policy data.
       - Provided high-level technical support and analyzed customer requests for product enhancements.
   - role: Intern Product Developer
     time: 2004 - 2005

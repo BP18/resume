@@ -63,7 +63,7 @@ experiences:
       - Mentored other team members on design, development, code, and testing best practices along with coordinating business priorities and timelines.
   - role: Contract Software Developer
     time: 2014 - 2016
-    company: TransCanada, Calgary + Remote
+    company: TC Energy, Calgary + Remote
     details: |
       - Designed and developed a modern replacement for a legacy natural gas pipeline invoicing system as part of an experienced project team.
       -	Contributed to all layers of the application including persistence (SQL Server, NHibernate), microservice (.NET, Web API, REST, C#), and user interface (AngularJS).

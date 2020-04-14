@@ -2,12 +2,35 @@
 layout: default
 ---
 
-{% include career-profile.html %}
+{% assign sidebar = site.data.data.sidebar %}
 
-{% unless site.data.data.sidebar.education %}
+<div class="sidebar-wrapper">
+  <div class="profile-container">
+
+    {% if sidebar.avatar %}
+    <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" />
+    {% endif %}
+  
+    {% if sidebar.name %}
+    <h1 class="name">{{ sidebar.name }}</h1>
+    {% endif %}
+  
+    {% if sidebar.tagline %}
+    <h3 class="tagline">{{ sidebar.tagline }}</h3>
+    {% endif %}
+  
+  </div>
+  
+  {% include contact.html %}
+</div>
+
+<div class="main-wrapper">
+  {% include career-profile.html %}
+  {% include experiences.html %}
+  {% include skills.html %}
+</div>
+
+<div class="sidebar-wrapper">
   {% include education.html %}
-{% endunless %}
-
-{% include experiences.html %}
-
-{% include skills.html %}
+  {% include interests.html %}
+</div>

@@ -1,70 +1,97 @@
 {% assign education = site.data.data.education %}
 {% assign awards = site.data.data.awards %}
-{% if education %}
-  {% if site.data.data.sidebar.education %}
-  <div class="education-container container-block">
 
-    <h2 class="container-block-title">
-      Education
-    </h2>
+<div class="education-container container-block">
 
-    {% for graduation in education %}
-    <div class="item">
-      <h4 class="degree">{{ graduation.degree }}</h4>
-      <h5 class="meta">{{ graduation.school }} ({{ graduation.time }})</h5>
-      <div class="time">{{ graduation.description }}</div>
-    </div>
-    {% endfor %}
+  <h2 class="container-block-title">
+    Education
+  </h2>
 
+  {% for graduation in education %}
+  <div class="item">
+    <h4 class="degree">{{ graduation.degree }}</h4>
+    <h5 class="meta">{{ graduation.school }} ({{ graduation.time }})</h5>
+    <div class="time">{{ graduation.description }}</div>
   </div>
-  <div class="education-container container-block">
+  {% endfor %}
 
-    <h2 class="container-block-title">
-      Awards + Designations
-    </h2>
+</div>
+<div class="education-container container-block">
 
-    {% for award in awards %}
-    <div class="item">
-      <h4 class="degree">{{ award.name }}</h4>
-      <h5 class="meta">{{ award.organization }} ({{ award.time }})</h5>
-      <div class="time">{{ award.description }}</div>
-    </div>
-    {% endfor %}
+  <h2 class="container-block-title">
+    Awards + Designations
+  </h2>
 
+  {% for award in awards %}
+  <div class="item">
+    <h4 class="degree">{{ award.name }}</h4>
+    <h5 class="meta">{{ award.organization }} ({{ award.time }})</h5>
+    <div class="time">{{ award.description }}</div>
   </div>
-  {% else %}
-  <section class="section educations-section">
+  {% endfor %}
 
-    <h2 class="section-title">
-      <span class="fa-stack fa-xs">
-        <i class="fas fa-circle fa-stack-2x"></i>
-        <i class="fas fa-graduation-cap fa-stack-1x fa-inverse"></i>
-      </span>
-      Education
-    </h2>
+</div>
 
-    {% for graduation in education %}
-    <div class="item">
 
-      <div class="meta">
 
-        <div class="upper-row">
-          <h3 class="degree">{{ graduation.degree }}</h3>
-          <div class="time">{{ graduation.time }}</div>
-        </div>
 
-        <div class="university">{{ graduation.university }}</div>
+
+<!-- <section class="section educations-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-graduation-cap fa-stack-1x fa-inverse"></i>
+    </span>
+    Education
+  </h2>
+
+  {% for graduation in education %}
+  <div class="item">
+    <div class="meta">
+      <div class="upper-row">
+        <h3 class="degree">{{ graduation.degree }}</h3>
+        <div class="time">{{ graduation.school }} ({{ graduation.time }})</div>
       </div>
-
-      {% if graduation.details %}
-      <div class="details">
-        {{ graduation.details | markdownify }}
-      </div>
-      {% endif %}
-
+      <div class="university">{{ graduation.time }}</div>
     </div>
-    {% endfor %}
 
-  </section>
-  {% endif %}
-{% endif %}
+    {% if graduation.description %}
+    <div class="details">
+      {{ graduation.description | markdownify }}
+    </div>
+    {% endif %}
+  </div>
+  {% endfor %}
+
+</section>
+
+TODO: Split into own document?
+<section class="section awards-section"></section>
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-award fa-stack-1x fa-inverse"></i>
+    </span>
+    Awards + Designations
+  </h2>
+
+  {% for award in awards %}
+  <div class="item">
+    <div class="meta">
+      <div class="upper-row">
+        <h3 class="degree">{{ award.name }}</h3>
+        <div class="time">{{ award.organization }} ({{ award.time }})</div>
+      </div>
+      <div class="university">{{ award.time }}</div>
+    </div>
+    {% if award.description %}
+    <div class="details">
+      {{ award.description | markdownify }}
+    </div>
+    {% endif %}
+  </div>
+  {% endfor %}
+
+</section> -->

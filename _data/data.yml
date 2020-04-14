@@ -122,7 +122,7 @@ skills:
   title: Skills + Proficiency
   categories:
     - name: Language
-      items: C#, Modern JavaScript, HTML5/CSS, SQL, Java, VB.NET, PHP, Smalltalk
+      items: C#, SQL, Modern JavaScript, HTML5/CSS, Java, VB.NET, PHP, Smalltalk
     - name: Framework
       items: .NET, ASP.NET, Web API, Hangfire, REST, SOAP, AngularJS, J2EE
     - name: Tool

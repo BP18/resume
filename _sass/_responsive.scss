@@ -8,12 +8,21 @@
     .sidebar-wrapper {
         width: inherit;
         margin: 0;
+
+        .interests-section {
+            padding-bottom: 30px;
+        }
     }
 
     .main-wrapper {
         position: static;
         width: inherit;
         margin: 0;
+        padding: 0;
+
+        section {
+            padding: 30px;
+        }
     }
 
     .main-wrapper .time {
@@ -25,8 +34,6 @@
     .main-wrapper .upper-row {
         margin-bottom: 0;
     }
-
-
 }
 
 /* Small devices (tablets, 768px and up) */
@@ -38,10 +45,8 @@
 @media (min-width: 992px) {
 
     .skillset .level-title {
-        display: inline-block;
         float: left;
         width: 20%;
-        margin-bottom: 0;
     }
 }
 

@@ -1,7 +1,5 @@
 {% assign skills = site.data.data.skills %}
-
 <section class="skills-section section">
-
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
@@ -9,16 +7,12 @@
     </span>
     {{ skills.title }}
   </h2>
-
   <div class="skillset">
-
     {% for skill in skills.categories %}
     <div class="item">
       <h3 class="level-title">{{ skill.name }}</h3>
       <p>{{ skill.items }}</p><!-- TODO: Change to Bootstrap grid? -->
     </div>
     {% endfor %}
-
   </div>
-
 </section>

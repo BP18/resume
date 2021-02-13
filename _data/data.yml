@@ -1,7 +1,3 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
-
 sidebar:
   # TODO: Remove this option when making sidebar more dynamic with mobile version
   education: True # Set to False if you want education in main section instead of in sidebar
@@ -44,7 +40,7 @@ career-profile:
 
 experiences:
   - role: Technical Architect
-    time: 2018 - 2020
+    time: 2018 - 2021
     company: Leavetown Vacations, Vancouver + Remote
     details: |
       Provided technical leadership as the development team grew to eight members and our platform quadrupled in volume to over $16 million in annual transactions.

@@ -22,11 +22,11 @@ sidebar:
   goodreads: # Number-Username, e.g. 123456-alandoe
 
   interests:
-    - item: Hiking
-    - item: Cycling
     - item: Hockey
     - item: Golf
     - item: Soccer
+    - item: Hiking
+    - item: Cycling
     - item: Skiing
     - item: Reading
     - item: Gardening
@@ -41,7 +41,7 @@ career-profile:
 experiences:
   - role: Technical Architect
     time: 2018 - 2021
-    company: Leavetown Vacations, Vancouver + Remote
+    company: Jetstream Hospitality Solutions, Vancouver + Remote
     details: |
       Provided technical leadership as the development team grew to eight members and our platform quadrupled in volume to over $16 million in annual transactions.
       - Oversaw tech integration efforts after the company was aquired by a large US competitor and continued API coordination with multiple external distribution partners.
@@ -50,7 +50,7 @@ experiences:
       - Enhanced and automated the CI/CD pipeline (AppVeyor, Cake), AWS infrastructure, monitoring, and log analysis (Serilog, Seq).
   - role: Lead Software Developer
     time: 2016 - 2018
-    company: Leavetown Vacations, Vancouver
+    company: Jetstream Hospitality Solutions, Vancouver
     details: |
       Hired as the first full-time software developer to jump-start the organization's pivot from travel agency to tech startup. Helped create a small tech team, obtain $1.2 million in Series A funding, and led a variety of projects.
       - Built real-time sync and instant booking integrations with Airbnb, VRBO, and TripAdvisor, including prototype features unique to a small group of worldwide partners. Tech stack primarily based on AWS, .NET (C#), REST, Hangfire, Entity Framework, SQL Server.

@@ -124,9 +124,9 @@ skills:
     - name: Tool
       items: Visual Studio/ReSharper, Git/GitHub, Eclipse, SVN, PowerShell
     - name: DevOps
-      items: AWS Architecture, CI/CD Pipelines, Config as Code, Structured Logging
+      items: AWS Architecture, CI/CD Pipelines, Infrastructure/Config as Code, Structured Logging, Puppet, Docker
     - name: Data
-      items: SQL Server, ORM, Redis, MySQL, Oracle, Access
+      items: SQL Server, ORM, Redis, Power BI, MySQL, Oracle
     - name: OS
       items: Proficient with Windows, macOS, and Linux
     - name: Method

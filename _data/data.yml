@@ -53,9 +53,9 @@ experiences:
     company: Jetstream Hospitality Solutions, Vancouver
     details: |
       Hired as the first full-time software developer to jump-start the organization's pivot from travel agency to tech startup. Helped create a small tech team, obtain $1.2 million in Series A funding, and led a variety of projects.
-      - Built real-time sync and instant booking integrations with Airbnb, VRBO, and TripAdvisor, including prototype features unique to a small group of worldwide partners. Tech stack primarily based on AWS, .NET (C#), REST, Hangfire, Entity Framework, SQL Server.
+      - Built real-time sync and instant booking integrations with Airbnb, Vrbo, and TripAdvisor, including prototype features unique to a small group of worldwide partners. Tech stack primarily based on AWS, .NET (C#), REST, Hangfire, Entity Framework, SQL Server.
       - Designed and built a REST API (including custom search and live quote endpoints) to support the launch of a new website created by an external vendor.
-      - Maintained and modernized legacy internal .NET applications.
+      - Maintained and modernized legacy internal .NET and Node.js applications.
       - Mentored other team members on design, development, code, and testing best practices along with coordinating business priorities and timelines.
   - role: Contract Software Developer
     time: 2014 - 2016
